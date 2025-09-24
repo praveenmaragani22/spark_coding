@@ -8,10 +8,3 @@ def countBetween(arr, low, high):
         right = bisect_right(arr, h)
         ans.append(right - left)
     return ans
-
-
-# Example
-arr = [1, 2, 2, 3, 4]
-low = [0, 2]
-high = [2, 4]
-print(countBetween(arr, low, high)) 
