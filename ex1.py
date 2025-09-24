@@ -15,9 +15,3 @@ def maximumPoints(k, costs):
             else:
                 break
     return points
-
-
-# Example
-k = 14
-costs = [2, 4, 1, 8, 6]
-print(maximumPoints(k, costs))   # 4
